@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Secret Formula</title>
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Alert 🔔</h1>
+      <div class="box">
+        <form>
+          <input type="text" id="input-text" placeholder="Enter Your Name" />
+          <br />
+          <button class="button" type="submit">Submit Message</button>
+        </form>
+      </div>
+      <br />
+      <h1>Sandwich builder 🥪</h1>
+      <div class="box">
+        <form id="sandwichForm">
+          <div class="sandwichGroup">
+            <label class="sandwich">🍞 Wheat Bread 🍞</label>
+            <input
+              type="checkbox"
+              id="bread1"
+              class="option-input checkbox"
+            /><br />
+            <label class="sandwich"> 🍞 White Bread 🍞</label>
+            <input
+              type="checkbox"
+              id="bread2"
+              class="option-input checkbox"
+            /><br />
+            <label class="sandwich">🥩 Turkey 🥩 </label>
+            <input
+              type="checkbox"
+              id="turkey"
+              class="option-input checkbox"
+            /><br />
+            <label class="sandwich">🥓Ham 🥓</label>
+            <input
+              type="checkbox"
+              id="ham"
+              class="option-input checkbox"
+            /><br />
+            <label class="sandwich">🍅Tomato 🍅</label>
+            <input
+              type="checkbox"
+              id="tomato"
+              class="option-input checkbox"
+            /><br />
+          </div>
+          <br />
+          <button class="button" type="submit">Build Sandwich</button><br />
+        </form>
+      </div>
+      <br />
+      <h1>💈 Haircut appointment scheduler 💈</h1>
+      <br />
+      <div class="box">
+        <form id="haircutForm">
+          <label>Select a date</label>
+          <input type="date" id="date" placeholder="Select a date" /><br />
+          <input
+            type="text"
+            id="barber"
+            placeholder="Who do you want to cut your hair?"
+          /><br />
+          <label>Long hair</label>
+          <input
+            type="radio"
+            id="longHair"
+            name="hairlength"
+            class="option-input radio"
+          /><br />
+          <label>Short hair</label>
+          <input
+            type="radio"
+            id="shortHair"
+            name="hairlength"
+            class="option-input radio"
+          /><br />
+          <br />
+          <button class="button" type="submit">Set Appointment</button>
+        </form>
+      </div>
+      <br />
+      <h1>⚙️<Create account ⚙️</h1>
+      <br />
+      <div class="box">
+        <form id="createForm">
+          <input type="text" id="username" placeholder="Create a username" />
+          <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email address"
+          /><br />
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter a password"
+          /><br />
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Confirm password"
+          /><br />
+          <br />
+          <button class="button" type="submit">Create Account</button><br />
+        </form>
+      </div>
+      <br />
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
