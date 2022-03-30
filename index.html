@@ -5,48 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Secret Formula</title>
-    <link href="./styles.css" rel="stylesheet" type="text/css" />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <div class="container">
-      <h1>The Alert 🔔</h1>
+     
       <div class="box">
         <form>
-          <input type="text" id="input-text" placeholder="Enter Your Name" />
+           <h3>The Alert</h3>
+          <input type="text" id="input-text" placeholder="Enter Your Name" autocomplete="off"/>
           <br />
           <button class="button" type="submit">Submit Message</button>
         </form>
       </div>
       <br />
-      <h1>Sandwich builder 🥪</h1>
+    
       <div class="box">
         <form id="sandwichForm">
+            <h3>sandwich builder</h3>
           <div class="sandwichGroup">
-            <label class="sandwich">🍞 Wheat Bread 🍞</label>
+            <label class="sandwich"> Wheat Bread </label>
             <input
               type="checkbox"
               id="bread1"
               class="option-input checkbox"
             /><br />
-            <label class="sandwich"> 🍞 White Bread 🍞</label>
+            <label class="sandwich"> White Bread </label>
             <input
               type="checkbox"
               id="bread2"
               class="option-input checkbox"
             /><br />
-            <label class="sandwich">🥩 Turkey 🥩 </label>
+            <label class="sandwich"> Turkey</label>
             <input
               type="checkbox"
               id="turkey"
               class="option-input checkbox"
             /><br />
-            <label class="sandwich">🥓Ham 🥓</label>
+            <label class="sandwich">Ham </label>
             <input
               type="checkbox"
               id="ham"
               class="option-input checkbox"
             /><br />
-            <label class="sandwich">🍅Tomato 🍅</label>
+            <label class="sandwich">Tomato </label>
             <input
               type="checkbox"
               id="tomato"
@@ -58,16 +60,17 @@
         </form>
       </div>
       <br />
-      <h1>💈 Haircut appointment scheduler 💈</h1>
+    
       <br />
       <div class="box">
         <form id="haircutForm">
+            <h3>💈 Haircut appointment scheduler 💈</h3>
           <label>Select a date</label>
           <input type="date" id="date" placeholder="Select a date" /><br />
           <input
             type="text"
             id="barber"
-            placeholder="Who do you want to cut your hair?"
+            placeholder="Who do you want to cut your hair?" autocomplete="off"
           /><br />
           <label>Long hair</label>
           <input
@@ -88,31 +91,32 @@
         </form>
       </div>
       <br />
-      <h1>⚙️<Create account ⚙️</h1>
+      
       <br />
       <div class="box">
         <form id="createForm">
-          <input type="text" id="username" placeholder="Create a username" />
+          <h3>Create account</h3>
+          <input type="text" id="username" placeholder="Create a username" autocomplete="off" />
           <br />
           <input
             type="email"
             id="email"
-            placeholder="Enter your email address"
+            placeholder="Enter your email address" 
           /><br />
           <input
             type="password"
             id="password"
-            placeholder="Enter a password"
+            placeholder="Enter a password" autocomplete="off"
           /><br />
           <input
             type="password"
             id="confirm-password"
-            placeholder="Confirm password"
+            placeholder="Confirm password" autocomplete="off"
           /><br />
           <br />
           <button class="button" type="submit">Create Account</button><br />
         </form>
-      </div>
+       
       <br />
     </div>
     <script src="./main.js"></script>
